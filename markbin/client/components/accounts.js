@@ -16,6 +16,7 @@ class Accounts extends Component {
 	componentWillUnmount() {
 		// Go find the forms we created and destroy them
 		// we need to clean up those forms ourselves
+		Blaze.remove(this.view);
 	}
 
 	render() {
